@@ -1,0 +1,27 @@
+kotlin uses java libraries and kotlin runtime libraries for compiling its code. kotlin runtim files are supplied to jvm at runtime after byteccode conversion is done
+
+kotlin automatically decides type for variables based on value, known as type inference
+
+no ternary operator in kotlin
+
+every kotlin class has 'Any' class as super class
+
+interfaces are used when class division is on based of behaviour and abstract class are used to divide among classes based on types
+
+in kotlin by default, modifier is public
+
+enum is used for assigning a set values to variables encapsulated, which should not change or can be changed by anyone
+
+values and variables within enum are instances, so Monday is variable 1 is its value, in enum every variable can only have one instance
+
+enum are restricted to values, sealed classes are restricted to types so one variable can have many types meaning many instances for onr variable of seled class
+
+kotlin is object oriented and functional language
+
+in kotlin function are treated as first class citizens, basically objects
+
+context of coroutine is state of coroutine tied to its scope
+
+job provides utility method to manage coroutine
+
+globlscope.launch doesn't stop unless application stops
